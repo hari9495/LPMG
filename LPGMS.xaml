@@ -1951,21 +1951,21 @@
                                                         <av:PointCollection x:Key="ConnectorLocation">456.2,1548.4 456.2,1578.4 492,1578.4 492,1611</av:PointCollection>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <Sequence DisplayName="BSC_Report" sap:VirtualizedContainerService.HintSize="1150,2785" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                                    <Sequence DisplayName="BSC_Report" sap:VirtualizedContainerService.HintSize="1150,2608" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1088,2697" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                                                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1088,2520" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                                                         <TryCatch.Try>
-                                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Oracle BI Interactive Dashboards - LPG Monitoring Reports" sap:VirtualizedContainerService.HintSize="1050,2402" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="6c6c29ef-7077-4cb3-940d-38feb1147cec" Version="V2">
+                                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Oracle BI Interactive Dashboards - LPG Monitoring Reports" sap:VirtualizedContainerService.HintSize="1050,2225" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="6c6c29ef-7077-4cb3-940d-38feb1147cec" Version="V2">
                                                             <uix:NApplicationCard.Body>
                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                 <ActivityAction.Argument>
                                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                                 </ActivityAction.Argument>
-                                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,2185" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,2008" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2059,7 +2059,7 @@
                                                                       </uix:TargetAnchorable>
                                                                     </uix:NClick.Target>
                                                                   </uix:NClick>
-                                                                  <uix:NCheckState DisplayName="Check App State 'Month'" Exists="[BSC_Page]" sap:VirtualizedContainerService.HintSize="954,354" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="6c6c29ef-7077-4cb3-940d-38feb1147cec" Timeout="5" Version="V3">
+                                                                  <uix:NCheckState DisplayName="Check App State 'Month'" Exists="[BSC_Page]" sap:VirtualizedContainerService.HintSize="954,345" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="6c6c29ef-7077-4cb3-940d-38feb1147cec" Timeout="5" Version="V3">
                                                                     <uix:NCheckState.IfExists>
                                                                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,103" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                                                         <sap:WorkflowViewStateService.ViewState>
@@ -2088,7 +2088,6 @@
                                                                       </uix:TargetAnchorable>
                                                                     </uix:NCheckState.Target>
                                                                   </uix:NCheckState>
-                                                                  <ui:LogMessage Message="{x:Null}" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,168" sap2010:WorkflowViewState.IdRef="LogMessage_36" />
                                                                 </Sequence>
                                                               </ActivityAction>
                                                             </uix:NApplicationCard.Body>
